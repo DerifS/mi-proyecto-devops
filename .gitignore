@@ -1,0 +1,19 @@
+# Configuración de editores de código (IDEs)
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno y secretos (¡NUNCA subas credenciales!)
+.env
+.env.local
+*.pem
+*.key
+
+# Directorios de dependencias o compilación (por si el proyecto crece)
+node_modules/
+dist/
+build/
