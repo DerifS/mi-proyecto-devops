@@ -18,3 +18,8 @@ mi-proyecto-devops/
 │   └── deploy.sh
 ├── README.md
 └── .gitignore
+
+## Cambios realizados en la Actividad 3
+- Se agregaron nuevas secciones de contenido
+- Se mejoraron estilos y estructura
+- Se trabajó de forma colaborativa con ramas
