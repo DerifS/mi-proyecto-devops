@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #0f172a; /* Fondo oscuro para un estilo más tech */
-    color: #e2e8f0; /* Texto claro para contrastar */
+    font-family: 'Courier New', Courier, monospace; /* Cambio a fuente de terminal */
+    background-color: #000000; /* Fondo negro puro */
+    color: #00ff00; /* Texto verde neón brillante */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,10 +18,11 @@ body {
 }
 
 h1 {
-    color: #10b981; /* Verde brillante que resalta en el fondo oscuro */
+    color: #00ff00; 
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
-    letter-spacing: 1px; /* Un pequeño ajuste de espaciado para que se vea distinto */
+    text-shadow: 0 0 8px rgba(0, 255, 0, 0.6); /* Efecto de brillo estilo pantalla CRT */
+    letter-spacing: 2px; 
 }
 
 p {
@@ -29,10 +30,10 @@ p {
     line-height: 1.6;
     margin-bottom: 1rem;
     max-width: 600px;
-    background-color: #1e293b; /* Fondo de tarjeta ligeramente más claro que el body */
+    background-color: #0a0a0a; /* Negro ligeramente más claro para la caja */
     padding: 15px 20px;
-    border-radius: 8px;
-    border: 1px solid #334155; /* Borde sutil para delimitar la tarjeta */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ajustada para el modo oscuro */
+    border-radius: 4px; /* Bordes más cuadrados para un look más rústico */
+    border: 1px solid #00ff00; /* Borde verde que delimita la tarjeta */
+    box-shadow: 0 4px 15px rgba(0, 255, 0, 0.15); /* Resplandor suave alrededor */
     width: 100%;
 }
