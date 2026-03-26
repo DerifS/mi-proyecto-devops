@@ -30,7 +30,7 @@ p {
     line-height: 1.6;
     margin-bottom: 1rem;
     max-width: 600px;
-    background-color: #0a0a0a; /* Negro ligeramente más claro para la caja */
+    background-color: #0a0a0a;
     padding: 15px 20px;
     border-radius: 4px; /* Bordes más cuadrados para un look más rústico */
     border: 1px solid #00ff00; /* Borde verde que delimita la tarjeta */
