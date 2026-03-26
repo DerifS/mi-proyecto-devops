@@ -23,6 +23,14 @@ if html.count("<h1>") < 1:
 if html.count("<p>") < 1:
     errors.append("index.html debe contener al menos un párrafo")
 
+css = ""
+if os.path.exists("src/styles.css"):
+    with open("src/styles.css", "r", encoding="utf-8") as file:
+        css = file.read()
+
+if css.count("{") < 2:
+    errors.append("styles.css debe contener al menos dos reglas CSS")
+
 if errors:
     print("Errores encontrados:")
     for error in errors:
