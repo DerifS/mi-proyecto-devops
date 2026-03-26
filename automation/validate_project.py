@@ -12,6 +12,11 @@ if not os.path.exists("src/styles.css"):
 if not os.path.exists("README.md") or os.path.getsize("README.md") == 0:
     errors.append("README.md no existe o está vacío")
 
+html = ""
+if os.path.exists("src/index.html"):
+    with open("src/index.html", "r", encoding="utf-8") as file:
+        html = file.read()
+
 if html.count("<h1>") < 1:
     errors.append("index.html debe contener un h1")
 
