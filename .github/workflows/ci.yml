@@ -23,3 +23,11 @@ jobs:
 
       - name: Ejecutar script de validación
         run: python automation/validate_project.py
+
+      - name: Mensaje de Éxito
+        if: success()
+        run: echo "Todas las validaciones pasaron correctamente."
+
+      - name: Mensaje de Error
+        if: failure()
+        run: echo "Hubo un fallo en las validaciones. Revisa el registro arriba para ver qué falta."
