@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - feature-ci
+      - feature-ci-advanced
   pull_request:
 
 jobs:
