@@ -4,7 +4,7 @@
     padding: 0;
 }
 
- body {
+  {
     font-family: 'Courier New', Courier, monospace; /* Cambio a fuente de terminal */
     background-color: #000000; /* Fondo negro puro */
     color: #00ff00; /* Texto verde neón brillante */
@@ -17,7 +17,7 @@
     padding: 20px;
 }
 
- h1 {
+  {
     color: #00ff00; 
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
@@ -25,7 +25,7 @@
     letter-spacing: 2px; 
 }
 
- p {
+  {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
