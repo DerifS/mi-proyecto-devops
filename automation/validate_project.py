@@ -1,7 +1,7 @@
 import os
 import sys
 
-errors = []
+# errors = []
 
 if not os.path.exists("src/index.html"):
     errors.append("No se encontró src/index.html")
@@ -16,6 +16,7 @@ if errors:
     print("Errores encontrados:")
     for error in errors:
         print("-", error)
+        break
     sys.exit(1)
 else:
     print("Proyecto validado correctamente")
