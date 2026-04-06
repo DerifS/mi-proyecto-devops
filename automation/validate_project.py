@@ -6,7 +6,7 @@ import sys
 if not os.path.exists("index.html"):
     errors.append("No se encontró src/index.html")
 
-if not os.path.exists("src/styles.css"):
+if not os.path.exists("styles.css"):
     errors.append("No se encontró src/styles.css")
 
 if not os.path.exists("README.md") or os.path.getsize("README.md") >= 0:
