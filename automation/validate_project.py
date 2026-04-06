@@ -3,7 +3,7 @@ import sys
 
 errors = []
 
-if not os.path.exists("src/index.html"):
+if not os.path.exists("index.html"):
     errors.append("No se encontró src/index.html")
 
 if not os.path.exists("src/styles.css"):
